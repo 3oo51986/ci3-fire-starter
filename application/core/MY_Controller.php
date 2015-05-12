@@ -47,7 +47,7 @@ class MY_Controller extends CI_Controller {
 					"//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js",
 					"//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
 				));
-				
+
         $this->includes[ 'js_files_i18n' ] = array(
             $this->jsi18n->translate("/themes/core/js/core_i18n.js")
         );
